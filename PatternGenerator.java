@@ -29,7 +29,7 @@ public class PatternGenerator {
             System.out.println(symbol);
             int i = 0;
             while (i <= rows){
-                symbol += "*"; 
+                symbol += "**"; 
                 System.out.println(symbol);
                 i++;
             }
@@ -162,11 +162,11 @@ public class PatternGenerator {
      *                to standard output.
      */
     public static void main(String[] args){
-            stars(5);
-            triangle(9);
-            odds(9);
-            eo(5);
-            pyramid(5);
+            //stars(5);
+            //triangle(9);
+            //odds(9);
+            //eo(5);
+            //pyramid(5);
         }
     
 }
